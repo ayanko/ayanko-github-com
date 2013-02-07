@@ -1,0 +1,8 @@
+.page-header
+  %h2#articles Articles
+
+%dl
+  - data.projects.each do |url, title|
+    %dt
+      %i.icon-share-alt
+      = link_to title, url

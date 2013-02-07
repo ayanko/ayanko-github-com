@@ -1,0 +1,63 @@
+- - http://railsware.github.com/libskypekit/
+  - Libskypekit
+  - Thread-safe C library with synchronous API using asynchronous C++ SkypeKit SDK
+
+- - http://railsware.github.com/skypekit/
+  - Skypekit
+  - Ruby FFI interface to libskypekit C library
+
+- - https://github.com/railsware/activeresource-persistent
+  - ActiveResource Persistent
+  - HTTP persistent connection support for ActiveResource
+
+- - https://github.com/railsware/rack_session_access
+  - Rack_Session_Access
+  - Rack middleware that provides access to rack.session environment
+
+- - https://github.com/railsware/rspec-example_steps
+  - RSpec example steps
+  - Given/When/Then steps for RSpec examples
+
+- - https://github.com/ayanko/x11_client
+  - X11 Client
+  - X11Client is C extension that manages X11 windows/events
+
+- - https://github.com/ayanko/libevent
+  - Libevent
+  - Ruby C extension to libevent library
+
+- - https://github.com/railsware/passenger-initscript
+  - Passenger init.d script
+  - Manage multiple passenger instances
+
+- - https://github.com/railsware/caphub
+  - CapHub
+  - Generate centralized capistrano skeleton for multiple deployment
+
+- - https://github.com/railsware/capistrano-multiconfig
+  - Capistrano Multiconfig
+  - Capistrano extension that allows to use multiple configurations
+
+- - https://github.com/railsware/capistrano-calendar
+  - Capistrano Calendar
+  - Deployment event creation on (google) calendar service
+
+- - https://github.com/railsware/capistrano-patch
+  - Capistrano Patch
+  - Capistrano patch recipes
+
+- - https://github.com/railsware/capistrano-uptodate
+  - Capistrano Up-to-date
+  - Capistrano extension that automatically check local repository with remote repository
+
+- - https://github.com/railsware/plunger
+  - Plunger
+  - Code review tool
+ 
+- - https://github.com/railsware/db_structure_ext
+  - DB Structure Ext
+  - Extended rails tasks db:structure:dump/load that supports mysql views/triggers/routines
+
+- - https://github.com/railsware/column_info_reset
+  - Column Info Reset
+  - Reset ActiveRecord column info when unknown column exception occurs

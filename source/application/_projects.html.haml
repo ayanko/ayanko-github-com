@@ -1,0 +1,9 @@
+.page-header
+  %h2#projects Projects
+
+%dl
+  - data.projects.each do |url, title, summary|
+    %dt
+      %i.icon-asterisk
+      = link_to title, url
+    %dd= summary

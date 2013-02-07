@@ -1,0 +1,29 @@
+!!! 5
+%html
+  %head
+    %meta(charset='utf-8')
+    %meta(content="IE=edge,chrome=1" http-equiv="X-UA-Compatible")
+    %meta(name="viewport" content="width=device-width, initial-scale=1.0")
+    %title Andriy Yanko
+    = stylesheet_link_tag "application"
+    = javascript_include_tag  "application"
+
+  %body(class="#{page_classes}" data-spy='scroll' data-target='.navbar')
+
+    #main.container
+      #main-navbar.navbar.navbar-fixed-top
+        .navbar-inner
+          .container
+            %a.btn.btn-navbar(data-toggle="collapse" data-target=".nav-collapse")
+              %span.icon-bar
+              %span.icon-bar
+              %span.icon-bar
+
+            = link_to 'ayanko', 'http://ayanko.github.com', class: 'brand'
+
+            .nav-collapse.collapse
+              %ul.nav
+                %li= link_to 'Projects', "#projects"
+                %li= link_to 'Articles', "#articles"
+                %li= link_to 'Events', "#events"
+      = yield
